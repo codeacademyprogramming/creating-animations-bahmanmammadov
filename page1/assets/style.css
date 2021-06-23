@@ -1,0 +1,141 @@
+
+header{
+    height: 900px;
+    width: 100%;
+    background-image: url(../assets/sekiller/app.jpg);
+    background-color: black;
+}
+.take{
+    
+    float: right;
+    background-color: black;
+    color: white;
+    border-radius: 2px;
+    margin-top: 500px;
+    margin-right: 5px;
+    padding: 8px;
+}
+.take:hover{
+    background-color: white;
+    color: black;
+}
+.ourapp{
+    display: block;
+   float: left;
+    width: 500px;
+    height: 230px;
+    background-color: rgba(71, 65, 65,0.5);
+    margin-top: 460px;
+    border-radius: 10px;
+    text-align: center;
+    color: rgb(237,230,231);
+    
+}
+.down{
+    display: inline-block;
+    width: 90%;
+    height: 40px;
+    background-color: rgb(110,157,99);
+    text-decoration: none;
+    border-radius: 7px;
+    color: rgb(155,175,157);
+    padding-top: 10px;
+    font-size: 18px;
+}
+.ourapp:hover{
+    background-color: black;
+    color: white;
+}
+.ourapp:hover .down{
+    background-color: green;
+    color: white;
+}
+#down-box{
+    width: 100%;
+    text-align: center;
+    background-color: green;
+    color: white;
+    display: none;
+}
+@media screen and (min-width:700px) and  ( max-width:1000px){
+    #down-box{
+        display: block;
+    }
+    .ourapp{
+        display: none;
+    }
+
+}
+    .twopart{
+        width: 60%;
+        height: 450px;
+
+    }
+    .twopart h3{
+        text-align: left;
+    }
+    .inputdown{
+        width: 25%;
+        height: 40px;
+        padding: 10px;
+        background-color: rgb(155, 150, 150);
+    }
+    .inputdown:hover{
+        background-color: rgb(129, 119, 119);
+    }
+
+.clarity{
+    background-color: rgb(241,241,241);
+    height: 500px;
+}
+.clarity h1,h3{
+   text-align: center;
+  
+}
+.icons{
+    width: 100%;
+    height: 800px;
+    background-color: rgb(97,97,97);
+}
+.icon1{
+    
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.icon2{
+  
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.icon3{
+   
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.icon1 i{
+     padding: 30px; 
+    size: 15px;
+   
+}
+.icons div{
+    font-size: 40px;
+    margin-top: 13px;
+    
+}
+.icons p{
+    font-size: 20px;
+    color: white;
+}
+@media  screen and (max-width:500px) {
+    
+.clarity img{
+    width: 100%;
+}
+    
+}
