@@ -1,0 +1,57 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding:0 ;
+}
+.menu{
+    width: 80%;
+    margin-left: 130px;
+   
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+i:hover{
+    background-color: blue;
+}
+.photoplace1 h3,p{
+    text-align: center;
+    
+}
+.photoplace1 div{
+    width: 270px;
+    height: 200px;
+    margin-left: 15px;
+}
+
+.photoplace2 div{
+    width: 270px;
+    height: 200px;
+    margin-left: 15px;
+}
+.number{
+    display: flex;
+     width: 80%;
+      margin-left: 130px;
+       height: 30px; 
+      
+       justify-content: center;
+}
+.number span{
+    margin-left: 45px;
+    display: inline-block;
+    margin-top: 5px;
+    width: 25px;
+    
+}
+.span1:hover{
+    background-color: black;
+    color: white;
+}
+.foot p{
+    background-color: rgb(97,97,97); 
+    margin-left: 4px;
+}
+.flex1{
+    flex-grow: 1;
+}
